@@ -23,12 +23,11 @@ project-global_warming_NLP
     
 |__ a_data/
 |__ b_codes/
-|   |__ P01_API_requests.ipynb  
-|   |__ P02_data_cleaning.ipynb 
-|   |__ P03_EDA_nlp.ipynb   
-|   |__ P04-Modeling.ipynb
-|   |__ P05-Select_Model_Analysis.ipynb
-|   |__ P06-Select_model_production.ipynb    
+|   |__ a_2017_data_cleanin.ipynb  
+|   |__ a_2018_data_cleanin.ipynb 
+|   |__ a_Merge_data.ipynb   
+|   |__ b_EDA.ipynb
+|   |__ c_VIZ.ipynb
 |__ c_plots/
 |__ Executive_slides_NLP_reddit.pdf
 |__ README.md
