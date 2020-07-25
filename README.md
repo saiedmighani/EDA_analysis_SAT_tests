@@ -1,5 +1,3 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Standardized Testing, Statistical Summaries and Inference
-
 ### Objective
 
 To identify trends in participation and also scores in state-based datasets for SAT and ACT scores in years 2017-2019.
@@ -17,13 +15,33 @@ To identify trends in participation and also scores in state-based datasets for 
 
 These data give average SAT and ACT scores by state, as well as participation rates for the classes of 2017, 2018, and 2019.
 
+### <span style="color: green">Project structure
+    
+The import, data process, as well as modeling and visualizatons were all performed in python. The project directory is structured as follows:
+```
+project-global_warming_NLP
+    
+|__ a_data/
+|__ b_codes/
+|   |__ P01_API_requests.ipynb  
+|   |__ P02_data_cleaning.ipynb 
+|   |__ P03_EDA_nlp.ipynb   
+|   |__ P04-Modeling.ipynb
+|   |__ P05-Select_Model_Analysis.ipynb
+|   |__ P06-Select_model_production.ipynb    
+|__ c_plots/
+|__ Executive_slides_NLP_reddit.pdf
+|__ README.md
+```
 
-### Deliverables
+The project was first run on a small dataset of only 50 imported posts, at the production stage, it was run on 20,000 posts.
 
-<<<<<<< HEAD
-After doing data cleaning and creating an appropriate data frame, I did EDA and also visualization to deliver the required executive messages.
+---
 
-Dataframe has the following format:
+### <span style="color: green">Final cleaned DataFrame   
+  
+
+The cleaned Dataframe has the following format:
 
 - #### <font color='blue'> df_final</font> is a pandas dataframe. Its entries are: 
 
@@ -47,3 +65,23 @@ Dataframe has the following format:
 |**act_2018_participation**|*float*|act_2018|The act participation in units of percentage|
 |**act_2018_composite**|*float*|act_2018|The act composite grades|
 =======
+
+### <span style="color: green">EDA results  
+    
+<div style="text-align:center"><img src="c_plots/hist_sat_act_math.png" /></div>
+
+
+
+<div style="text-align:center"><img src="c_plots/scatter_read_write_math.png" /></div>
+
+    
+    
+    
+### <span style="color: green">Recommendations   
+    
+    
+- It is crucial to focus on reading as much as on math skills.
+
+- This importance is being shared between SAT and ACT outcomes.
+
+- As participation is historic, if the board does not pay attention to low participations, history will repeat itself.
